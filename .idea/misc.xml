@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/edittext_round_shape.xml" value="0.2365" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.256" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2595" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.236" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_arrow_circle_left_24.xml" value="0.236" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.2595" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2595" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2595" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_post_add_24.xml" value="0.236" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/drawable/ic_baseline_radio_button_checked_24.xml" value="0.2595" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/font/.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/activity_landing.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/activity_main2.xml" value="0.2296875" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/app_bar.xml" value="0.4" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/custom_alert.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_add_post.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_add_request.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_base.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_blank.xml" value="0.2296875" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_create_post.xml" value="0.2" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_create_request.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_detail.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_edit_post.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_my_borrow_requests.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_my_posts.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_my_requests.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_post_detail.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_post_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_request_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_request_list.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/fragment_test.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/list_item.xml" value="0.39416058394160586" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/list_item_2.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/list_item_3.xml" value="0.253125" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/layout/loading_status_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Shaurya/AndroidStudioProjects/BookshelfApplication/app/src/main/res/menu/ordering_menu.xml" value="0.25052083333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/postListFragment"
+        android:name="com.example.bookshelfapplication.PostListFragment"
+        android:label="Recent Posts"
+        tools:layout="@layout/fragment_post_list" >
+        <action
+            android:id="@+id/action_postListFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/myPostsFragment"
+        android:name="com.example.bookshelfapplication.MyPostsFragment"
+        android:label="My Posts"
+        tools:layout="@layout/fragment_my_posts" >
+        <action
+            android:id="@+id/action_myPostsFragment_to_createPostFragment"
+            app:destination="@id/createPostFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+        <action
+            android:id="@+id/action_myPostsFragment_to_postDetailFragment"
+            app:destination="@id/postDetailFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/myRequestsFragment"
+        android:name="com.example.bookshelfapplication.MyRequestsFragment"
+        android:label="My Requests"
+        tools:layout="@layout/fragment_my_requests" >
+        <action
+            android:id="@+id/action_myRequestsFragment_to_createRequestFragment"
+            app:destination="@id/createRequestFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+        <action
+            android:id="@+id/action_myRequestsFragment_to_requestDetailFragment"
+            app:destination="@id/requestDetailFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPostFragment"
+        android:name="com.example.bookshelfapplication.CreatePostFragment"
+        android:label="Create Post"
+        tools:layout="@layout/fragment_create_post" />
+    <fragment
+        android:id="@+id/createRequestFragment"
+        android:name="com.example.bookshelfapplication.CreateRequestFragment"
+        android:label="Create Request"
+        tools:layout="@layout/fragment_create_request" />
+    <fragment
+        android:id="@+id/requestListFragment"
+        android:name="com.example.bookshelfapplication.RequestListFragment"
+        android:label="Recent Requests"
+        tools:layout="@layout/fragment_request_list" >
+        <action
+            android:id="@+id/action_requestListFragment_to_requestDetailFragment"
+            app:destination="@id/requestDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.bookshelfapplication.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_requestListFragment"
+            app:destination="@id/requestListFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_myPostsFragment"
+            app:destination="@id/myPostsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_myRequestsFragment"
+            app:destination="@id/myRequestsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_postListFragment"
+            app:destination="@id/postListFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:popEnterAnim="@anim/pop_slide_in"
+            app:popExitAnim="@anim/pop_slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.example.bookshelfapplication.PostDetailFragment"
+        android:label="Post Detail"
+        tools:layout="@layout/fragment_post_detail" >
+        <argument
+            android:name="postClicked"
+            app:argType="com.example.bookshelfapplication.Post" />
+    </fragment>
+    <fragment
+        android:id="@+id/requestDetailFragment"
+        android:name="com.example.bookshelfapplication.RequestDetailFragment"
+        android:label="Request Detail"
+        tools:layout="@layout/fragment_request_detail" >
+        <argument
+            android:name="requestClicked"
+            app:argType="com.example.bookshelfapplication.Request" />
+    </fragment>
+</navigation>
